@@ -110,7 +110,7 @@ public class ByName
 	@Override
 	public String toString()
 	{
-		return "By Name Klasse [ \n id = " + id + ",\n accountId = " + accountId + ",\n puuid = " + puuid + ",\n name = " + name + ",\n profileIconId = " + profileIconId + ",\n revisionDate  = " + revisionDate + ",\n summonerLevel = " + summonerLevel + "\n]";
+		return "By Name Klasse [ \n id = " + id + ",\n accountId = " + accountId + ",\n puuid = " + puuid + ",\n name = " + name + ",\n profileIconId = " + profileIconId + ",\n revisionDate  = " + revisionDate + ",\n summonerLevel = " + summonerLevel + "\n BySummonerList = " +  BySummonerList + "]";
 	}
 
 }

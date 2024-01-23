@@ -162,9 +162,11 @@ public class BySummoner
 	}
 
 	@Override
-	public String toString()
-	{
-		return queueType;
+	public String toString() {
+		return "\n\n BySummoner Klasse queueType=" + queueType + "[\n leagueId=" + leagueId + ",\n tier=" + tier + ",\n rank=" + rank
+				+ ",\n summonerId=" + summonerId + ",\n summonerName=" + summonerName + ",\n leaguePoints=" + leaguePoints
+				+ ",\n wins=" + wins + ",\n losses=" + losses + ",\n veteran=" + veteran + ",\n inactive=" + inactive
+				+ ",\n freshBlood=" + freshBlood + ",\n hotStreak=" + hotStreak + "\n]\n ";
 	}
 
 	public static List<BySummoner> fromJsonArray(String jsonArray)

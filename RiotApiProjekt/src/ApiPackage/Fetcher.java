@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JLabel;
@@ -19,6 +20,7 @@ public class Fetcher
 	private static final String API_KEY = "RGAPI-0e982eec-5691-42ad-9f4f-26afac20108d";
 	private static final String RIOT_API_BASE_URL = "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/";
 	private static ByName tempadder;
+	protected static ArrayList<ByName> dummies = new ArrayList<ByName>();
 	
 	private DefaultComboBoxModel cbModel = new DefaultComboBoxModel<BySummoner>();
 	
@@ -46,7 +48,7 @@ public class Fetcher
 			for (BySummoner summoner : summonerList)
 			{
 				tempadder.BySummonerList.add(summoner);
-				cbModel.addElement(summoner);
+				cbModel.addElement(summoner.getQueueType());
 			}
 			gui.getComboBox().setModel(cbModel);
 			System.out.println(tempadder.BySummonerList);
@@ -160,6 +162,11 @@ public class Fetcher
 			ByName tempname = Fetching(temp);
 			gui.getLblNameOut().setText(tempname.getName());
 			gui.getLblLevelOut().setText(Integer.toString(tempname.getSummonerLevel()));
+			
+			dummies.add(tempname);
+			Mainhandler MH2 = new NIO("Output"+tempname.getName() + ".txt");
+			MH2.schreiben(dummies);
+			
 			gui.getLblTip().setVisible(true);
 			allinvis();
 		}
