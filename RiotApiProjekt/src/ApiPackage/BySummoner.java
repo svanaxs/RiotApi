@@ -45,6 +45,22 @@ public class BySummoner
 		this.hotStreak = hotStreak;
 	}
 
+	public String getTier() {
+		return tier;
+	}
+
+	public void setTier(String tier) {
+		this.tier = tier;
+	}
+
+	public String getRank() {
+		return rank;
+	}
+
+	public void setRank(String rank) {
+		this.rank = rank;
+	}
+
 	public String getQueueType()
 	{
 		return queueType;
@@ -148,7 +164,7 @@ public class BySummoner
 	@Override
 	public String toString()
 	{
-		return "By Summoner Klasse [ \n leagueId = " + leagueId + ",\n queuetype = " + queueType + ",\n tier = " + tier + ",\n rank = " + rank + ",\n summonerId = " + summonerId + ",\n summonerName = " + summonerName + ",\n leaguePoints = " + leaguePoints + ",\n wins = " + wins + ",\n losses  = " + losses + ",\n veteran = " + veteran + "\n inactive = " + inactive + "\n freshBlood = " + freshBlood + "\n hotStreak = " + hotStreak + "\n]";
+		return queueType;
 	}
 
 	public static List<BySummoner> fromJsonArray(String jsonArray)
