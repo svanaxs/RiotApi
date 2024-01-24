@@ -19,7 +19,7 @@ public abstract class Mainhandler
 			// Change here
 			for (ByName dummy : t)
 			{
-				//Change here
+				// Change here
 				out.write(dummy.toString());
 				out.newLine();
 			}
@@ -39,13 +39,11 @@ public abstract class Mainhandler
 			String einlese;
 			while ((einlese = in.readLine()) != null)
 			{
-				
+
 				String[] parts = einlese.split(";");
-				
+
 				// Change here
 				System.out.println(parts[0] + " " + parts[1]);
-
-				
 
 			}
 			in.close();

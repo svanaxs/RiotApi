@@ -8,7 +8,7 @@ By Name Klasse [
  summonerLevel = 497
  BySummonerList = [
 
- BySummoner Klasse queueType=RANKED_FLEX_SR[
+ RANKED_FLEX_SR[
  leagueId=8085f991-b04e-4c94-9d9d-8ebb4b72a307,
  tier=PLATINUM,
  rank=III,
@@ -24,7 +24,7 @@ By Name Klasse [
 ]
  , 
 
- BySummoner Klasse queueType=RANKED_SOLO_5x5[
+ RANKED_SOLO_5x5[
  leagueId=7f816d56-4754-4a98-ab89-b5244108edfb,
  tier=GOLD,
  rank=II,
