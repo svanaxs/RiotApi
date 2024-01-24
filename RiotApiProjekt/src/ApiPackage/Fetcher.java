@@ -48,7 +48,7 @@ public class Fetcher
 			for (BySummoner summoner : summonerList)
 			{
 				tempadder.BySummonerList.add(summoner);
-				cbModel.addElement(summoner.getQueueType());
+				cbModel.addElement(summoner);
 			}
 			gui.getComboBox().setModel(cbModel);
 			System.out.println(tempadder.BySummonerList);

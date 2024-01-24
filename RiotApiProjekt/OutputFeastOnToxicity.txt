@@ -1,0 +1,41 @@
+By Name Klasse [ 
+ id = g45E1ub1oz3mRmw_8zZFeZA0GMkCgOld8bMZZpSMbGZWkjU,
+ accountId = wip-mwG_fUouwp61f-ocWtVAFmYs63xHQ9vPALQPTIvxX4Q,
+ puuid = F9-KJJEdI1ox676covF5HKlamRgnXa_NSp52E9NqVkq_F638bA181gc1Zb3SoVkHr8zvGOlSMn1Dlw,
+ name = FeastOnToxicity,
+ profileIconId = 3156,
+ revisionDate  = 1705942779000,
+ summonerLevel = 497
+ BySummonerList = [
+
+ BySummoner Klasse queueType=RANKED_FLEX_SR[
+ leagueId=8085f991-b04e-4c94-9d9d-8ebb4b72a307,
+ tier=PLATINUM,
+ rank=III,
+ summonerId=g45E1ub1oz3mRmw_8zZFeZA0GMkCgOld8bMZZpSMbGZWkjU,
+ summonerName=FeastOnToxicity,
+ leaguePoints=67,
+ wins=4,
+ losses=6,
+ veteran=false,
+ inactive=false,
+ freshBlood=false,
+ hotStreak=false
+]
+ , 
+
+ BySummoner Klasse queueType=RANKED_SOLO_5x5[
+ leagueId=7f816d56-4754-4a98-ab89-b5244108edfb,
+ tier=GOLD,
+ rank=II,
+ summonerId=g45E1ub1oz3mRmw_8zZFeZA0GMkCgOld8bMZZpSMbGZWkjU,
+ summonerName=FeastOnToxicity,
+ leaguePoints=21,
+ wins=6,
+ losses=5,
+ veteran=false,
+ inactive=false,
+ freshBlood=false,
+ hotStreak=false
+]
+ ]]
