@@ -17,7 +17,7 @@ public class Fetcher
 {
 	private RiotGui gui;
 
-	private static final String API_KEY = "RGAPI-0e982eec-5691-42ad-9f4f-26afac20108d";
+	private static final String API_KEY = "*************************************";
 	private static final String RIOT_API_BASE_URL = "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/";
 	private static ByName tempadder;
 	protected static ArrayList<ByName> dummies = new ArrayList<ByName>();
